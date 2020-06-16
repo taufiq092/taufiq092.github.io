@@ -1,0 +1,206 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    font-weight: lighter;}
+.top {
+    background-image: url(gambar/pelajar.jpg);
+    background-size: cover;
+    height: 100vh;
+    opacity: 90%; 
+    z-index: -2;
+    background-position: 0 -100px;
+    border-bottom:12px solid #000080 ;}
+
+.pa {
+    height: 40px;
+    width: 100%;
+    background-color: #000080;
+    border-bottom: 4px solid #ffae00;
+}
+.pa ul li{
+    color:#ffae00;
+    text-decoration: none;
+    list-style-type: none;
+    padding-bottom: 7px;
+    display: inline-block;
+    padding-left: 10px;
+}
+.menu img {
+    float: left;
+    width:300px;
+    padding-left: 90px;
+padding-top: 25px;}
+.menu ul {
+    float: right;
+    list-style-type: none;
+    margin-top: 30px;
+}
+.menu ul li {
+    display:inline-block;
+}
+.menu ul li a{
+    text-decoration: none;
+    color: #ffae00;
+    padding: 5px 20px;
+    border: 1px solid #ffae00;
+    transition: 0.7s;
+    margin-top: 30px;
+}
+.menu ul li a:hover{
+    background-color: #ffae00;
+    color: #000080;
+}
+.text {
+    transition: 0.6s;
+    line-height: 6px;
+    text-align: right; 
+    color: black; 
+    font-weight: lighter;}
+.text {
+    background: #fff;
+    opacity: 70%;
+    box-sizing: border-box;
+    height: 150px;
+    width: 470px;
+    top: 70%;
+    right: 0%;
+    padding: 5px;
+    position: absolute;
+    border-radius: 0 0 0 150px;
+    border-left: 8px solid #ffae00 ;
+}
+.text h1 {
+    font-size: 40px;}
+.text h2 {
+    font-size: 25px;
+}
+.text p {
+    font-size: 15px;
+    line-height: 15px;}
+#ekskul { 
+    border-top: 3px solid #ffae00;
+    padding-top: 50px; 
+    text-align: center; }
+#ekskul h2 h3 {
+    text-shadow: 3px 3px 9px #000;
+}
+#ekskul h2 h3 p {
+    font-weight: lighter; }
+#ekskul p {
+    opacity: 70%;
+    }
+.keahlian img {
+    width: 50px; }
+.keahlian {
+    border: 2px solid rgba(0, 0, 0, 0.19);
+    padding-top: 50px;}
+.grid {
+    
+    display: grid; 
+    grid-template-columns: 1fr 1fr 1fr;
+    width: 80%; 
+    margin: auto;  }
+.depan {
+    opacity: 70%; 
+    padding-top: 50px;
+    border: 5px solid #000080 }
+.depan img {
+    width: 100%; 
+    z-index: -3; 
+    height: 300px;}
+.struktur img {
+    width: 100px;}
+.struktur h2 a {
+    text-decoration: none;
+    color: black;
+}
+.struktur h2 a:hover {
+    color: #000080;
+}
+.organisasi {
+    text-align: center;
+    font-weight: lighter;
+    padding-top: 50px;}
+.organisasi h1 {
+    opacity: 80%;}
+.organisasi p{
+    opacity: 50%;}
+.grid2 {
+    display: grid;
+    grid-template-columns: 1fr 1fr;}
+.subscribe {
+    background: #000080;
+    height: 100px; 
+    color: white;
+    font-weight: lighter; 
+    text-align: center;
+    border-top: 3px solid #ffae00;
+    border-bottom:3px solid #ffae00;
+    opacity: 90%; 
+    padding-top: 20px; 
+    padding-bottom: 40px;
+    text-shadow: 3px 3px 9px #000000;}
+.subscribe a{
+    border: 1px solid transparent;
+    background: red;
+    color: white;
+    text-decoration: none;
+    padding: 10px; 
+    border-radius: 5px; }
+.berita{
+    text-align: center;
+    padding-top: 50px;}
+.berita p{
+    opacity: 50%;}
+.grid4 {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    width: 90%;
+    margin: auto;}
+.grid3 p h2 {
+    text-align: left;}
+.grid3 {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 1px 0 rgba(0, 0, 0, 0.19); padding: 20px;}
+.grid3 a{
+    text-decoration: none; 
+    border: 1px solid transparent;
+    padding: 10px; 
+    background:#1CAAE9; 
+    border-radius: 50px; 
+    color: white; }
+.grid3 img {
+    border-radius: 4px 4px 0 0;}
+.kontak {
+    border: 2px solid #000080;
+    border-top: 8px solid #ffae00;
+    background-image: url(gambar/depan.jpg);
+    height: 80vh;
+    background-size: cover;
+    width: 100%;}
+.des {
+    width: 20%; padding-left: 120px; 
+    color: white; 
+    padding-top: 80px;}
+.footer {
+    background: black; 
+    color: white; 
+    opacity: 90%; 
+    padding: 20px;
+    padding-left: 120px;
+    text-align: center;}
+.footer p{
+    opacity: 50%;}
+.footer a{
+    text-decoration: none; color: white;}
+
+    .slide {
+        max-width: auto;
+        height: 690px;
+        position: relative;
+    }
+    .slide1 {
+        background-image: url(pramuka.JPG);
+        background-size: cover;
+        animation: fade 8s infinite;
+        -webkit-animation: fade 8s infinite;
+    }
